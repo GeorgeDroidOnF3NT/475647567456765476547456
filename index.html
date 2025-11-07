@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset Hardware ID</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="auth-card">
+            <div class="header">
+                <h1>Reset Hardware ID</h1>
+                <p class="warning">Please note: Each reset has a cooldown period of 24 hours. Do not share your username used for the reset with anyone.</p>
+            </div>
+            
+            <form id="resetForm">
+                <div class="input-group">
+                    <label for="license">Enter your license</label>
+                    <input type="text" id="license" name="license" required placeholder="LICENSE-KEY-123">
+                </div>
+                
+                <div class="input-group">
+                    <label for="username">Enter your username</label>
+                    <input type="text" id="username" name="username" required placeholder="Your username">
+                </div>
+                
+                <div class="input-group">
+                    <label for="confirmUsername">Enter your confirm-username</label>
+                    <input type="text" id="confirmUsername" name="confirmUsername" required placeholder="Confirm your username">
+                </div>
+                
+                <button type="submit" class="submit-btn" id="submitBtn">
+                    Submit
+                </button>
+            </form>
+            
+            <div id="message" class="message"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
