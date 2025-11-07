@@ -1,0 +1,7 @@
+{
+  "keys": {
+    "KEY-123-456-789": {"status": "active", "hwid": "", "expires": "2026-1-1"},
+    "KEY-ABC-DEF-GHI": {"status": "active", "hwid": "", "expires": "2024-12-31"},
+    "KEY-BANNED-TEST": {"status": "banned", "hwid": "", "expires": "2024-01-01"}
+  }
+}
