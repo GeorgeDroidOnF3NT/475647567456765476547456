@@ -10,11 +10,11 @@
     },
     "LICENSE-DEF-456": {
       "status": "active",
-      "username": "jane_smith", 
+      "username": "NSNF", 
       "hwid": "HWID-OLD-456",
       "lastReset": "2024-01-15T10:30:00Z",
-      "created": "2024-01-01",
-      "expires": "2024-12-31"
+      "created": "20244-01-01",
+      "expires": "20224-12-31"
     },
     "LICENSE-BANNED-789": {
       "status": "banned",
